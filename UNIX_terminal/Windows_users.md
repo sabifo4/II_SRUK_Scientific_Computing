@@ -1,0 +1,87 @@
+# Terminal in Windows 
+
+For Windows users, it is not be as easy as for Linux and Mac OS users to find the terminal in your system.
+By default, the Windows shell is the "Command prompt", which can be quickly accessed by
+typing these two words in the search bar of your desktop (i.e. Ask Cortana).
+
+However, this shell does not work like the bash shell, hence having different
+commands from the ones you are going to be learning in the UNIX introduction.
+
+Therefore, we have thought of three alternatives to install a bash shell in your Windows OS.
+Choose the one that best suits your preferences!
+
+## 1. GitBash for Windows
+You can install the GitBash for Windows, which can be downloaded from
+[here](https://git-scm.com/download/win). Note that when you click this link, the 
+download will automatically start.
+
+If you are unsure which options you should allow during the installation,
+you can follow the next recommendations:
+
+<p align="center">
+  <img width="500" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/Windows_install_git/00_steps1-4.png">
+</p>
+<p align="center">
+  <img width="500" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/Windows_install_git/01_steps5-8.png">
+</p>
+<p align="center">
+  <img width="500" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/Windows_install_git/02_steps9-10.png">
+</p>
+
+Once the installation is finished, you will see the following icon in your Tasks bar,
+which means that you will have the GitBash terminal installed!
+
+<p align="center">
+  <img width="100" height="100" src="https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Small">
+</p>
+
+
+The coolest thing about this terminal is that you can manage your own Git
+repositories (cloning repos, removing and adding files, etc.) or clone others
+with simple commands. If you are thinking of becoming a GitHub user,
+this is your terminal! You might also want to install
+PuTTY to generate your SSH key. Visit [this website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and then download the 
+`MSI ('Windows Installer')` (32-bit or 64-bit, depending on your OS) inside 
+the first box entitled `Package files`. Alternatively, you can click 
+[here](https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.70-installer.msi) to automatically start the download.
+If you want more information about this last step and how to correctly install 
+PuTTY, then you can follow [this tutorial](https://www.siteground.com/kb/How_to_generate_an_SSH_key_on_Windows_using_PuTTY/).
+
+## 2. Install a Linux distribution in a Virtual Box (VB)
+If you are keen on having a complete Linux experience and want to have more than a terminal,
+you can always create a Virtual Box with a Linux distribution.
+
+We recommend you to download the [Virtual Box from Oracle](https://www.virtualbox.org/), 
+install it in your PC, and then download your preferred Linux distribution.
+
+For instance, if you want to install Ubuntu, you can download the Ubuntu desktop
+from [here](https://www.ubuntu.com/download/desktop). Once you have installed the
+VB and downloaded the Linux distribution, just follow the
+instructions [here](http://www.psychocats.net/ubuntu/virtualbox). 
+This tutorial explains how to install Ubuntu in the VB, but the same procedure
+can be followed to install any other Linux distribution :smile: 
+
+## 3. Get the Linux subsystem for Windows
+
+### **WARNING: DO NOT DO THIS IF YOU ARE NOT COMFORTABLE/EXPERIENCED ENOUGH WITH THE COMMAND LINE NOR WITH ACTIVATING THE DEVELOPER MODE**
+### **If you feel you might struggle but tou still want to install the Linux subsystem,
+please ask any questions in the forum so we can assist you**
+
+The last option, which is available for only Windows 10 users, consists of
+installing a Linux environment as a subsystem inside your Windows.
+According to the [Documentation](https://docs.microsoft.com/en-us/windows/wsl/about), you can:
+
+* Install your preferred Linux distributions.
+* Run command-line utilities (e.g. `grep`, `sed`, `awk`, `sort`, etc.)
+* Run bash shell scripts and Linux command-line applications such as tmux or vim.
+* Choose your favorite Linux distributions from the Windows Store.
+* Install Linux tools using (e.g. you can use `apt-get` as in Ubuntu)
+* *... and many more - Check the documentation for more info*
+
+You can follow [this tutorial](https://docs.microsoft.com/en-us/windows/wsl/install-win10) or 
+this [one](https://www.onmsft.com/news/how-to-install-windows-10s-linux-subsystem-on-your-pc) to
+install it if you are interested in using this in your Windows.
+
+Furthermore, if you have managed to successfully install the Linux subsystem on your Windows 
+and would like to have a quick access to a terminal from any directory, 
+please follow the instructions [here](https://www.windowscentral.com/how-launch-bash-shell-right-click-context-menu-windows-10).
