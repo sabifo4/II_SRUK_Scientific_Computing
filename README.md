@@ -1,5 +1,5 @@
 # II_SRUK_Scientific_Computing
-This repository contains the material for the II edition of the SRUK Scientific Computing. All the sections covered in this workshop are introduced below.
+This repository contains the material for the II edition of the SRUK Scientific Computing. The next subsections contain important information about how to install the software required for the workshop as well as the practical sessions that will be carried out. Note that the latter will not be available until the day of the workshop.
 
 ## R and Python: get yourself started!
 We are going to learn how to program in R and Python, so you need to first download this software before attending the workshop.   
