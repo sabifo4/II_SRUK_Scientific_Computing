@@ -19,13 +19,16 @@ If you are unsure which options you should allow during the installation,
 you can follow the next recommendations:
 
 <p align="center">
-  <img width="800" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/00_Winsteps1-4.png">
+  <img width="700" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/00_Winsteps1-4.png">
+</p>
+
+*Note that in **step 3** you can choose any of the text editors listed there to set it as the default text editors. We recommend using* `nano` *as it is the simplest text editor listed here that you can use from the terminal. For the next steps, we just recommend following the installation with the default options given* 
+
+<p align="center">
+  <img width="700" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/01_Winsteps5-8.png">
 </p>
 <p align="center">
-  <img width="800" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/01_Winsteps5-8.png">
-</p>
-<p align="center">
-  <img width="400" height="250" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/02_Winsteps9-10.png">
+  <img width="600" height="250" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/02_Winsteps9-10.png">
 </p>
 
 Once the installation is finished, you will see the following icon in your Tasks bar,
@@ -41,7 +44,7 @@ repositories (cloning repos, removing and adding files, etc.) or clone others
 with simple commands. If you are thinking of becoming a GitHub user,
 this is your terminal! You might also want to install
 PuTTY to generate your SSH key. Visit [this website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and then download the 
-`MSI ('Windows Installer')` (32-bit or 64-bit, depending on your OS) inside 
+`MSI ('Windows Installer')` (32-bit or 64-bit, depending on your OS) - click the corresponding link inside 
 the first box entitled `Package files`. Alternatively, you can click 
 [here](https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.70-installer.msi) to automatically start the download.
 If you want more information about this last step and how to correctly install 
@@ -64,8 +67,7 @@ can be followed to install any other Linux distribution :smile:
 ## 3. Get the Linux subsystem for Windows
 
 ### **WARNING: DO NOT DO THIS IF YOU ARE NOT COMFORTABLE/EXPERIENCED ENOUGH WITH THE COMMAND LINE NOR WITH ACTIVATING THE DEVELOPER MODE**
-### **If you feel you might struggle but tou still want to install the Linux subsystem,
-please ask any questions in the forum so we can assist you**
+#### **If you feel you might struggle but tou still want to install the Linux subsystem, please ask any questions in the forum so we can assist you**
 
 The last option, which is available for only Windows 10 users, consists of
 installing a Linux environment as a subsystem inside your Windows.
