@@ -19,13 +19,13 @@ If you are unsure which options you should allow during the installation,
 you can follow the next recommendations:
 
 <p align="center">
-  <img width="500" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/00_Winsteps1-4.png">
+  <img width="800" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/00_Winsteps1-4.png">
 </p>
 <p align="center">
-  <img width="500" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/01_Winsteps5-8.png">
+  <img width="800" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/01_Winsteps5-8.png">
 </p>
 <p align="center">
-  <img width="500" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/02_Winsteps9-10.png">
+  <img width="400" height="250" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/02_Winsteps9-10.png">
 </p>
 
 Once the installation is finished, you will see the following icon in your Tasks bar,
