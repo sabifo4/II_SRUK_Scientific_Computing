@@ -10,5 +10,5 @@ Go inside the latter and you will see one executable called `Terminal`. Double
 click and you will immediately launch the terminal! 
 
 <p align="center">
-  <img width="700" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/03_Macsteps.png">
+  <img width="800" height="200" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/03_Macsteps.png">
 </p>
