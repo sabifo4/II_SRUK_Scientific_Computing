@@ -67,7 +67,7 @@ can be followed to install any other Linux distribution :smile:
 ## 3. Get the Linux subsystem for Windows
 
 ### **WARNING: DO NOT DO THIS IF YOU ARE NOT COMFORTABLE/EXPERIENCED ENOUGH WITH THE COMMAND LINE NOR WITH ACTIVATING THE DEVELOPER MODE**
-#### **--If you feel you might struggle to install the Linux subsysyem but you really want to have it, please ask us any questions in the forum so we can assist you--**
+#### **--If you feel you might struggle to install the Linux subsystem but you really want to have it, please ask us any questions in the forum so we can assist you--**
 
 The last option, which is available for only Windows 10 users, consists of
 installing a Linux environment as a subsystem inside your Windows.
