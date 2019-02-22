@@ -81,7 +81,7 @@ According to the [Documentation](https://docs.microsoft.com/en-us/windows/wsl/ab
 * *... and many more - Check the documentation for more info*
 
 You can follow [this tutorial](https://docs.microsoft.com/en-us/windows/wsl/install-win10) or 
-this [one](https://www.onmsft.com/news/how-to-install-windows-10s-linux-subsystem-on-your-pc) to
+[this one](https://www.onmsft.com/news/how-to-install-windows-10s-linux-subsystem-on-your-pc) to
 install it if you are interested in using this in your Windows.
 
 Furthermore, if you have managed to successfully install the Linux subsystem on your Windows 
