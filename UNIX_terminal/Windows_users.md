@@ -1,13 +1,13 @@
 # Terminal in Windows 
 
-For Windows users, it is not be as easy as for Linux and Mac OS users to find the terminal in your system.
+For Windows users, using the terminal is not as easy as it is for Linux and Mac OS users.
 By default, the Windows shell is the "Command prompt", which can be quickly accessed by
 typing these two words in the search bar of your desktop (i.e. Ask Cortana).
 
 However, this shell does not work like the bash shell, hence having different
-commands from the ones you are going to be learning in the UNIX introduction.
+commands from the ones you are going to be learning in this UNIX introduction.
 
-Therefore, we have thought of three alternatives to install a bash shell in your Windows OS.
+Therefore, we have thought of three alternative ways to install a bash shell in your Windows OS.
 Choose the one that best suits your preferences!
 
 ## 1. GitBash for Windows
@@ -22,7 +22,7 @@ you can follow the next recommendations:
   <img width="700" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/00_Winsteps1-4.png">
 </p>
 
-*Note that in **step 3** you can choose any of the text editors listed there to set it as the default text editors. We recommend using* `nano` *as it is the simplest text editor listed here that you can use from the terminal. For the next steps, we just recommend following the installation with the default options given* 
+*Note that in **step 3** you can choose any of the text editors listed there to set it as the default text editor for the GitBash terminal. We recommend using* `nano` *as it is the simplest text editor listed there that you can use from the terminal. For the next steps, we just recommend carrying on the installation with the default options* 
 
 <p align="center">
   <img width="700" height="500" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/01_Winsteps5-8.png">
@@ -39,9 +39,9 @@ which means that you will have the GitBash terminal installed!
 </p>
 
 
-The coolest thing about this terminal is that you can manage your own Git
-repositories (cloning repos, removing and adding files, etc.) or clone others
-with simple commands. If you are thinking of becoming a GitHub user,
+The coolest thing about this terminal is that you can manage Git
+repositories (cloning repos, removing and adding files, etc.)
+with simple Git commands. If you are thinking of becoming a GitHub user,
 this is your terminal! You might also want to install
 PuTTY to generate your SSH key. Visit [this website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and then download the 
 `MSI ('Windows Installer')` (32-bit or 64-bit, depending on your OS) - click the corresponding link inside 
@@ -51,14 +51,11 @@ If you want more information about this last step and how to correctly install
 PuTTY, then you can follow [this tutorial](https://www.siteground.com/kb/How_to_generate_an_SSH_key_on_Windows_using_PuTTY/).
 
 ## 2. Install a Linux distribution in a Virtual Box (VB)
-If you are keen on having a complete Linux experience and want to have more than a terminal,
-you can always create a Virtual Box with a Linux distribution.
+If you are keen on having a complete Linux experience and want to have more than a terminal on a Windows OS,
+you can always have your own Virtual Box with a Linux distribution.
 
 We recommend you to download the [Virtual Box from Oracle](https://www.virtualbox.org/), 
-install it in your PC, and then download your preferred Linux distribution.
-
-For instance, if you want to install Ubuntu, you can download the Ubuntu desktop
-from [here](https://www.ubuntu.com/download/desktop). Once you have installed the
+install it in your PC, and then download your preferred Linux distribution. For instance, if you want to install Ubuntu, you can download the Ubuntu desktop from [here](https://www.ubuntu.com/download/desktop). Once you have installed the
 VB and downloaded the Linux distribution, just follow the
 instructions [here](http://www.psychocats.net/ubuntu/virtualbox). 
 This tutorial explains how to install Ubuntu in the VB, but the same procedure
@@ -82,8 +79,8 @@ According to the [Documentation](https://docs.microsoft.com/en-us/windows/wsl/ab
 
 You can follow [this tutorial](https://docs.microsoft.com/en-us/windows/wsl/install-win10) or 
 [this one](https://www.onmsft.com/news/how-to-install-windows-10s-linux-subsystem-on-your-pc) to
-install it if you are interested in using this in your Windows.
+install it.
 
-Furthermore, if you have managed to successfully install the Linux subsystem on your Windows 
+**NOTE:** If you have managed to successfully install the Linux subsystem on your Windows 
 and would like to have a quick access to a terminal from any directory, 
 please follow the instructions [here](https://www.windowscentral.com/how-launch-bash-shell-right-click-context-menu-windows-10).
