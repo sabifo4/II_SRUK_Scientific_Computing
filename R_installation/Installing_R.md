@@ -62,7 +62,7 @@ to run all the commands you used to create any data set you had in your environm
 
 * **History**: This tab lists **all** the commands you have typed and run in the R console from the first moment you started your project. This means that, even if one of your commands did not work or caused an error, it will be shown here. You can decide if you want to save the History of your project during your session or before closing RStudio, up to you!
 
-![RStudio panel2](figs/RStudio_panel2.png "RStudio panel2")
+![RStudio panel2](../figs/RStudio_panel2.png "RStudio panel2")
 
 * **Connections**: This tab is a new feature in RStudio and you can mainly use it to connect to different data sources. We are not going to use this during the workshop, but you can read more about it [here](https://support.rstudio.com/hc/en-us/articles/115010915687).
 
