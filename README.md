@@ -4,8 +4,8 @@ This repository contains the material for the II edition of the SRUK Scientific 
 ## R and Python: get yourself started!
 We are going to learn how to program in R and Python, so you need to first download this software before attending the workshop.   
 
-   * Installing R   
-   * Installing Python
+   * [Installing R](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/R_installation/Installing_R.md)   
+   * [Installing Python](https://github.com/dalonsoa/scientific_computing/blob/master/installing_python.md)
 
 ## The shell terminal
 If you are a Mac OS or a Linux user, you will already have access to the terminal. However, if you are a Windows user, we recommend you to follow the instructions given in the first link below so you can easily follow the `Introduction to the UNIX shell` session of the workshop. For Mac OS and Linux users, we have added an explanation of how you can open the terminal in case you have never done this before. You can follow the corresponding links below:   
