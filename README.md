@@ -4,15 +4,15 @@ This repository contains the material for the II edition of the SRUK Scientific 
 ## R and Python: get yourself started!
 We are going to learn how to program in R and Python, so you need to first download this software before attending the workshop.   
 
-   * [Installing R](https://github.com/dalonsoa/scientific_computing/blob/master/installing_R.md)   
-   * [Installing Python](https://github.com/dalonsoa/scientific_computing/blob/master/installing_python.md)
+   * Installing R   
+   * Installing Python
 
 ## The shell terminal
 If you are a Mac OS or a Linux user, you will already have access to the terminal. However, if you are a Windows user, we recommend you to follow the instructions given in the first link below so you can easily follow the `Introduction to the UNIX shell` session of the workshop. For Mac OS and Linux users, we have added an explanation of how you can open the terminal in case you have never done this before. You can follow the corresponding links below:   
 
    * [How to start working with the terminal in Windows](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/UNIX_terminal/Windows_users.md)   
    * [The terminal in Mac OS](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/UNIX_terminal/MacOS_users.md)   
-   * The terminal in Linux
+   * [The terminal in Linux](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/UNIX_terminal/Linux_users.md)
 
 ## Good programming practice
 
@@ -22,7 +22,7 @@ And last, but not least, a piece of advice for your programming practice! As new
 
 ## Practical sessions
 
-The following links will open the material for the sessions that will be run in the workshop. However, note that these will not be available until the day of the workshop :smile:
+The following links lead to the material for the sessions that will be run in the workshop. However, note that these will not be available until the day of the workshop!
 
    * Introduction to the UNIX shell   
    * Introduction to Python   
