@@ -16,5 +16,5 @@ the icon is also there. Right-click this icon on the tasks bar and select
 you will not need to do the previous steps every single time you log in your session!
 
 <p align="center">
-  <img width="800" height="200" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/04_Linuxsteps.png">
+  <img width="1000" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/04_Linuxsteps.png">
 </p>
