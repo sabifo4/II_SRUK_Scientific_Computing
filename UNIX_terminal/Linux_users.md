@@ -1,11 +1,11 @@
 # Terminal in Linux distributions 
 
-If you are a Linux user, you can launch a terminal
-from which you can run UNIX/Linux commands. You already have an easy access to the terminal, but maybe 
-you have never used this. Even though the Ubuntu 18.04 version is used to explain 
-the following steps, the same can be applied to any other Ubuntu version or
-Linux distribution. Some of the buttons might be in a different place or 
-the desktop interface might look differently, but the procedure is the same :smile:
+If you are a Linux user, you already have an easy access to the terminal
+from which you can run UNIX/Linux commands. However, maybe 
+you have never used it and you do not really know how to find it. Even though the Ubuntu 18.04 version is used to explain 
+the following steps, and maybe some of the buttons might be in a different place or 
+the desktop interface might look differently, the same procedure applies to any other Ubuntu version or
+Linux distribution :smile:
 
 Click the `Activities` button from the main menu and a search box will pop up 
 in the middle of your desktop. Start typing `terminal` and you will see that immediately 
