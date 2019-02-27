@@ -8,13 +8,13 @@ between Python and R:
 ### 1. Variables 
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_00.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_00.png">
 </p>
 
 ### 2. Operators
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_01.png">
+  <img width="600" height="800" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_01.png">
 </p>
 
 
@@ -90,7 +90,7 @@ the operators used for R and a comparison with the ones used in Python
 is shown in the figure below: 
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_02.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_02.png">
 </p>
 
 Now we are going to see more examples so you can keep practising! Click the following 
@@ -105,7 +105,7 @@ of numbers stored: numeric, integer, or complex. You can compare the commands
 used in R and Python in the next figure:
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_03.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_03.png">
 </p>
 
 Get ready to play with some examples so it is easier for you to differentiate them!    
@@ -119,7 +119,7 @@ These vectors contain strings, which are anything enclosed in quotation marks.
 Again, we attach a figure comparing the commands used in R and Python:
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_04.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_04.png">
 </p>
 
 Let’s get started!
@@ -133,7 +133,7 @@ considered vectors, although in other programming languages they can be a
 different data type. A comparison between R and Python commands is shown below:
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_05.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_05.png">
 </p>
 
 Now let's work through more examples in the next tutorial:   
@@ -150,22 +150,22 @@ Python session so you see how to use them in R!
 ### Conditions:
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_10.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_10.png">
 </p>
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_11.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_11.png">
 </p>
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_12.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_12.png">
 </p>
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_13.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_13.png">
 </p>
 
 In comparison with Python, the R syntax for a condition looks like this:
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_14.png">
+  <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_14.png">
 </p>
 
 ### Loops:   
@@ -174,7 +174,7 @@ Even though you have seen this before, below we show a summary figure with
 the differences between the two kinds of loops:
 
 <p align="center">
-     <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_15.png">
+     <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_15.png">
 </p>
 
 
@@ -183,7 +183,7 @@ the differences between the two kinds of loops:
    ![Alt Text](../../figs/For_loop.gif)   
 
    <p align="center">
-     <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_21.png">
+     <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_21.png">
    </p>    
    
    * Explanation of a `while` loop:   
@@ -191,7 +191,7 @@ the differences between the two kinds of loops:
    ![Alt Text](../../figs/While_loop.gif)   
 
    <p align="center">
-     <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_27.png">
+     <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_27.png">
    </p>      
    
 
@@ -205,7 +205,7 @@ that you are working with is of class factor. The figure below shows a compariso
 between the commands used in R and Python:
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_06.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_06.png">
 </p>
 
 Learn how to work with this object in the next tutorial!   
@@ -218,7 +218,7 @@ The next step is to learn how to work with matrices, which have more than one
 dimension! Learn the differences between R and Python in the figure below:
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_07.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_07.png">
 </p>
 
 Remember that matrices are one of the mostly used classes in R to store
@@ -231,7 +231,7 @@ Last, we are going to play with some data frames. The differences between R and
 Python are the following:
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_08.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_08.png">
 </p>
 
 We are going to learn how we can import them from a data file and how we
@@ -257,7 +257,7 @@ The comparison between R and Python commands with an example of array is
 shown below:
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_09.png">
+  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_09.png">
 </p>
 
 
