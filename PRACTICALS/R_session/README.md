@@ -7,13 +7,13 @@ between Python and R:
 
 ### 1. Variables 
 
-<p align="center">
+<p align="left">
   <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_00.png">
 </p>
 
 ### 2. Operators
 
-<p align="center">
+<p align="left">
   <img width="600" height="800" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_01.png">
 </p>
 
@@ -147,18 +147,18 @@ that you have learnt in the previous tutorials. But before, let's revise
 the structure of a condition and the loops you have previously seen in the 
 Python session so you see how to use them in R!
 
-### Conditions:
+### 1.Conditions
 
-<p align="center">
+<p align="left">
   <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_10.png">
 </p>
-<p align="center">
+<p align="left">
   <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_11.png">
 </p>
-<p align="center">
+<p align="left">
   <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_12.png">
 </p>
-<p align="center">
+<p align="left">
   <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_13.png">
 </p>
 
@@ -168,13 +168,13 @@ In comparison with Python, the R syntax for a condition looks like this:
   <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_14.png">
 </p>
 
-### Loops:   
+### 2.Loops   
 
 Even though you have seen this before, below we show a summary figure with 
 the differences between the two kinds of loops:
 
-<p align="center">
-     <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_15.png">
+<p align="left">
+     <img width="650" height="200" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_15.png">
 </p>
 
 
