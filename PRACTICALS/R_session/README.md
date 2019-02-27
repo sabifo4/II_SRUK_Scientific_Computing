@@ -96,7 +96,7 @@ is shown in the figure below:
 Now we are going to see more examples so you can keep practising! Click the following 
 link to start the tutorial:   
 
-   * [Tutorial to work with logical vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/Logical_vectors.md)   
+   * [Tutorial to work with logical vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/00_Logical_vectors.Rmd)   
 
 ## Numeric, integer, and complex vectors
 
@@ -110,7 +110,7 @@ used in R and Python in the next figure:
 
 Get ready to play with some examples so it is easier for you to differentiate them!    
 
-   * [Tutorial to work with numeric, integer, and complex vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/Numbers_vectors.md)
+   * [Tutorial to work with numeric, integer, and complex vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/01_Numbers_vectors.Rmd)
 
 ## Character vectors
 
@@ -124,7 +124,7 @@ Again, we attach a figure comparing the commands used in R and Python:
 
 Let’s get started!
 
-* [Tutorial to work with character vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/Character_vectors.md)
+* [Tutorial to work with character vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/02_Character_vectors.Rmd)
 
 ## List vectors 
 
@@ -138,7 +138,7 @@ different data type. A comparison between R and Python commands is shown below:
 
 Now let's work through more examples in the next tutorial:   
 
-   * [Tutorial to work with list vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/Lists.md)
+   * [Tutorial to work with list vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/03_Lists.Rmd)
 
 ## Working with vectors
 
@@ -197,7 +197,7 @@ the differences between the two kinds of loops:
 
 Now that you have refreshed conditions and loops, good luck with the next tasks!
 
-* [Tutorial to work with different types of vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/Working_with_vectors.md)
+* [Tutorial to work with different types of vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/04_Working_with_vectors.Rmd)
 
 # 2. Factor
 If you want to arrange your data into levels, it is important that the object
@@ -210,7 +210,7 @@ between the commands used in R and Python:
 
 Learn how to work with this object in the next tutorial!   
 
-   * [Tutorial to work with objects of class factor](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/Factors.md)
+   * [Tutorial to work with objects of class factor](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/05_Factors.Rmd)
 
 # 3. Matrix
 The first step was learning to work with vectors, which have only one dimension.
@@ -224,7 +224,7 @@ dimension! Learn the differences between R and Python in the figure below:
 Remember that matrices are one of the mostly used classes in R to store
 the data! 
 
-* [Tutorial to work with objects of class matrix](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/Matrices.md)
+* [Tutorial to work with objects of class matrix](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/06_Matrices.Rmd)
 
 # 4. Data frame
 Last, we are going to play with some data frames. The differences between R and 
@@ -237,7 +237,7 @@ Python are the following:
 We are going to learn how we can import them from a data file and how we
 can save them in our PC! You can start this practical in the tutorial below:   
 
-   * [Tutorial to work with objects of class data frame](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/Data_frames.md)
+   * [Tutorial to work with objects of class data frame](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/07_Data_frames.Rmd)
 
 # 5. Array 
 Even though we are not going to go through a tutorial to work with array objects, it is good that you 
