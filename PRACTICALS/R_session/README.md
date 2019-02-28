@@ -157,8 +157,14 @@ In comparison with Python, the R syntax for a condition looks like this:
 
 ### 2.Loops   
 
-In comparison with Python, the R syntax for a `for` loop looks like this:
+In comparison with Python, the R syntax for a `for` loop looks like this:   
 
+   * R:   
+
+   <p align="center">
+     <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_20.png">
+   </p>    
+   * Python:   
    <p align="center">
      <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_21.png">
    </p>    
@@ -170,7 +176,18 @@ Now that you have refreshed conditions and loops, good luck with the next tasks!
 
 * [Tutorial to work with different types of vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/04_Working_with_vectors.Rmd)
 
-# 2. Factor
+# 3. Libraries 
+For this part of the practical, you are not going to need any tutorial. The basic 
+theory for libraries has been previously covered in Python, although the name 
+you learnt is `Modules` instead! :smile: 
+
+So now just open RStudio and follow the explanations given 
+during the session to learn how specific libraries can be loaded, how to ask 
+for some help in case you forget the arguments of the built-in function 
+within a library, etc. 
+
+
+# 4. Factor
 If you want to arrange your data into levels, it is important that the object
 that you are working with is of class factor. The figure below shows a comparison 
 between the commands used in R and Python:
@@ -183,7 +200,7 @@ Learn how to work with this object in the next tutorial!
 
    * [Tutorial to work with objects of class factor](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/05_Factors.Rmd)
 
-# 3. Matrix
+# 5. Matrix
 The first step was learning to work with vectors, which have only one dimension.
 The next step is to learn how to work with matrices, which have two dimensions.
 Note that in Python it is preferrable to work with multidimensional arrays instead 
@@ -199,7 +216,7 @@ the data, so let's play with some examples!
 
    * [Tutorial to work with objects of class matrix](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/06_Matrices.Rmd)
 
-# 4. Data frame
+# 6. Data frame
 Last, we are going to work with some data frames. The differences between R and 
 Python are the following:
 
@@ -212,7 +229,15 @@ can save them in our PC! You can start this practical in the tutorial below:
 
    * [Tutorial to work with objects of class data frame](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/07_Data_frames.Rmd)
 
-# 5. Array 
+# 7. Functions 
+Let's build a function ourselves! You already know the basic structure of a function from 
+the previous session. Now, we are going to learn the R syntax and we are going 
+to build some functions! 
+
+Open RStudio and let's get you started! :smile:
+
+
+# 8. Array 
 Even though we are not going to go through a tutorial to work with array objects, it is good that you 
 know that they exist. While data frames can have only 2 dimensions, arrays are intended to store 
 data in 3 or more dimensions. If you think of a 3D array, the most common type of 
