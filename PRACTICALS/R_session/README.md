@@ -149,19 +149,6 @@ Python session so you see how to use them in R!
 
 ### 1.Conditions
 
-<p align="left">
-  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_10.png">
-</p>
-<p align="left">
-  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_11.png">
-</p>
-<p align="left">
-  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_12.png">
-</p>
-<p align="left">
-  <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_13.png">
-</p>
-
 In comparison with Python, the R syntax for a condition looks like this:
 
 <p align="center">
@@ -170,30 +157,14 @@ In comparison with Python, the R syntax for a condition looks like this:
 
 ### 2.Loops   
 
-Even though you have seen this before, below we show a summary figure with 
-the differences between the two kinds of loops:
-
-<p align="left">
-     <img width="650" height="200" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_15.png">
-</p>
-
-
-   * Explanation of a `for` loop:   
-
-   ![Alt Text](../../figs/For_loop.gif)   
+In comparison with Python, the R syntax for a `for` loop looks like this:
 
    <p align="center">
      <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_21.png">
    </p>    
    
-   * Explanation of a `while` loop:   
-
-   ![Alt Text](../../figs/While_loop.gif)   
-
-   <p align="center">
-     <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_27.png">
-   </p>      
-   
+### **NOTE:** There are other loops such as the `while` loop, but we are not going to see them in this course. You can ask us 
+### at the end of the workshop for more information if you are keen on knowing more about them!! :smile:
 
 Now that you have refreshed conditions and loops, good luck with the next tasks!
 
@@ -214,20 +185,22 @@ Learn how to work with this object in the next tutorial!
 
 # 3. Matrix
 The first step was learning to work with vectors, which have only one dimension.
-The next step is to learn how to work with matrices, which have more than one
-dimension! Learn the differences between R and Python in the figure below:
+The next step is to learn how to work with matrices, which have two dimensions.
+Note that in Python it is preferrable to work with multidimensional arrays instead 
+of matrices, which are rarely used.
+The figure below shows the syntax differences between R and Python:
 
 <p align="center">
   <img width="650" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_07.png">
 </p>
 
 Remember that matrices are one of the mostly used classes in R to store
-the data! 
+the data, so let's play with some examples!   
 
-* [Tutorial to work with objects of class matrix](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/06_Matrices.Rmd)
+   * [Tutorial to work with objects of class matrix](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/06_Matrices.Rmd)
 
 # 4. Data frame
-Last, we are going to play with some data frames. The differences between R and 
+Last, we are going to work with some data frames. The differences between R and 
 Python are the following:
 
 <p align="center">
