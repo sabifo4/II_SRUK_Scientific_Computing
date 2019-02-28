@@ -159,18 +159,19 @@ In comparison with Python, the R syntax for a condition looks like this:
 
 In comparison with Python, the R syntax for a `for` loop looks like this:   
 
-   * R:   
+   * **R:**   
 
    <p align="center">
      <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_20.png">
-   </p>    
-   * Python:   
+   </p>   
+   
+   * **Python:**   
+   
    <p align="center">
      <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_21.png">
    </p>    
    
-### **NOTE:** There are other loops such as the `while` loop, but we are not going to see them in this course. You can ask us 
-### at the end of the workshop for more information if you are keen on knowing more about them!! :smile:
+#### **NOTE:** There are other loops such as the `while` loop, but we are not going to see them in this course. You can ask us at the end of the workshop for more information if you are keen on knowing more about them!! :smile:
 
 Now that you have refreshed conditions and loops, good luck with the next tasks!
 
