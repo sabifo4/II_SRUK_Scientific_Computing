@@ -24,7 +24,7 @@ And last, but not least, a piece of advice for your programming practice! As new
 
 The following links lead to the material for the sessions that will be run in the workshop. However, note that these might not be available until the day of the workshop!
 
-   * Introduction to the UNIX shell   
+   * Introduction to the UNIX shell: we will code all together following a demo, no tutorial required. Just make sure you know how to use the terminal in your PC!         
    * [Introduction to Python](PRACTICALS/Python_session)   
-   * Introduction to R
+   * [Introduction to R](https://github.com/sabifo4/II_SRUK_Scientific_Computing/tree/master/PRACTICALS/R_session)   
    * Python data: [Download the data used in this Software Carpentry course (the one indicated in the Prerequisites)](http://swcarpentry.github.io/python-novice-gapminder/)
