@@ -1,1 +1,18 @@
 notsynch
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MacOS
+.DS_Store
+
+# PyCharm rubish
+.idea
+
+# Data
+PRACTICALS/Python_session/data/

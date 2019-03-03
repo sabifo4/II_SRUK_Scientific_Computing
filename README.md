@@ -22,8 +22,9 @@ And last, but not least, a piece of advice for your programming practice! As new
 
 ## Practical sessions
 
-The following links lead to the material for the sessions that will be run in the workshop. However, note that these will not be available until the day of the workshop!
+The following links lead to the material for the sessions that will be run in the workshop. However, note that these might not be available until the day of the workshop!
 
    * Introduction to the UNIX shell   
-   * Introduction to Python   
+   * [Introduction to Python](PRACTICALS/Python_session)   
    * Introduction to R
+   * Python data: [Download the data used in this Software Carpentry course (the one indicated in the Prerequisites)](http://swcarpentry.github.io/python-novice-gapminder/)
