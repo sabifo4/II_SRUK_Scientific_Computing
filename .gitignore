@@ -13,3 +13,6 @@ __pycache__/
 
 # PyCharm rubish
 .idea
+
+# Data
+PRACTICALS/Python_session/data/
