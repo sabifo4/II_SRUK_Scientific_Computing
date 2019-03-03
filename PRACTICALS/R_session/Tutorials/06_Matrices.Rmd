@@ -144,8 +144,7 @@ M_decomposed
   Create a matrix 3x5 with `NA` values
 * ### Exercise 2 (HARD!)  
   Change the `NA` values into 0.  
-  ***HINT**: Look into the `which()` function to find how you can get both values for rows and columns!*
-
+  ***HINT***: Look into the `which()` function to find how you can get both values for rows and columns!   
 * ### Exercise 3  
   Give dimnames to your matrix
 * ### Exercise 4    
