@@ -67,6 +67,45 @@ set.seed( 12345 )
 Accordingly, you can type something like this in each of the Rmarkdown files 
 that we have provided in this repo :smile:
 
+But before, let's revise 
+the structure of a condition and the loops you have previously seen in the 
+Python session so you see how to use them in R!
+
+### 3. Conditions
+
+In comparison with Python, the R syntax for a condition looks like this:
+
+<p align="center">
+  <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_14.png">
+</p>
+
+### 4. Loops   
+
+In comparison with Python, the R syntax for a `for` loop looks like this:   
+
+   * **R:**   
+
+   <p align="center">
+     <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_20.png">
+   </p>   
+   
+   * **Python:**   
+   
+   <p align="center">
+     <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_21.png">
+   </p>    
+   
+#### **NOTE:** There are other loops such as the `while` loop, but we are not going to see them in this course. You can ask us at the end of the workshop for more information if you are keen on knowing more about them!! :smile:
+
+### 5. Libraries 
+For this part of the practical, you are not going to need any tutorial. The basic 
+theory for libraries has been previously covered in Python, although the name 
+you learnt is `Modules` instead! :smile: 
+
+So now just open RStudio and follow the explanations given 
+during the session to learn how specific libraries can be loaded, how to ask 
+for some help in case you forget the arguments of the built-in function 
+within a library, etc. 
 
 # 1. Vector
 
@@ -143,52 +182,13 @@ Now let's work through more examples in the next tutorial:
 ## Working with vectors
 
 Your next step is to learn how to access, manipulate, and plot all the vectors
-that you have learnt in the previous tutorials. But before, let's revise 
-the structure of a condition and the loops you have previously seen in the 
-Python session so you see how to use them in R!
-
-### 1.Conditions
-
-In comparison with Python, the R syntax for a condition looks like this:
-
-<p align="center">
-  <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_14.png">
-</p>
-
-### 2.Loops   
-
-In comparison with Python, the R syntax for a `for` loop looks like this:   
-
-   * **R:**   
-
-   <p align="center">
-     <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_20.png">
-   </p>   
-   
-   * **Python:**   
-   
-   <p align="center">
-     <img width="700" height="400" src="https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/figs/IntroR_21.png">
-   </p>    
-   
-#### **NOTE:** There are other loops such as the `while` loop, but we are not going to see them in this course. You can ask us at the end of the workshop for more information if you are keen on knowing more about them!! :smile:
-
-Now that you have refreshed conditions and loops, good luck with the next tasks!
+that you have learnt in the previous tutorials. We will also write some functions 
+in R, so good luck with the next tasks!
 
 * [Tutorial to work with different types of vectors](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/04_Working_with_vectors.Rmd)
 
-# 3. Libraries 
-For this part of the practical, you are not going to need any tutorial. The basic 
-theory for libraries has been previously covered in Python, although the name 
-you learnt is `Modules` instead! :smile: 
 
-So now just open RStudio and follow the explanations given 
-during the session to learn how specific libraries can be loaded, how to ask 
-for some help in case you forget the arguments of the built-in function 
-within a library, etc. 
-
-
-# 4. Factor
+# 2. Factor
 If you want to arrange your data into levels, it is important that the object
 that you are working with is of class factor. The figure below shows a comparison 
 between the commands used in R and Python:
@@ -201,7 +201,7 @@ Learn how to work with this object in the next tutorial!
 
    * [Tutorial to work with objects of class factor](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/05_Factors.Rmd)
 
-# 5. Matrix
+# 3. Matrix
 The first step was learning to work with vectors, which have only one dimension.
 The next step is to learn how to work with matrices, which have two dimensions.
 Note that in Python it is preferrable to work with multidimensional arrays instead 
@@ -217,7 +217,7 @@ the data, so let's play with some examples!
 
    * [Tutorial to work with objects of class matrix](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/06_Matrices.Rmd)
 
-# 6. Data frame
+# 4. Data frame
 Last, we are going to work with some data frames. The differences between R and 
 Python are the following:
 
@@ -230,15 +230,7 @@ can save them in our PC! You can start this practical in the tutorial below:
 
    * [Tutorial to work with objects of class data frame](https://github.com/sabifo4/II_SRUK_Scientific_Computing/blob/master/PRACTICALS/R_session/Tutorials/07_Data_frames.Rmd)
 
-# 7. Functions 
-Let's build a function ourselves! You already know the basic structure of a function from 
-the previous session. Now, we are going to learn the R syntax and we are going 
-to build some functions! 
-
-Open RStudio and let's get you started! :smile:
-
-
-# 8. Array 
+# 5. Array 
 Even though we are not going to go through a tutorial to work with array objects, it is good that you 
 know that they exist. While data frames can have only 2 dimensions, arrays are intended to store 
 data in 3 or more dimensions. If you think of a 3D array, the most common type of 
