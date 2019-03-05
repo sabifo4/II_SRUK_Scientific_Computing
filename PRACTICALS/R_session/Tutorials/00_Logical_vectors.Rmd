@@ -2,14 +2,15 @@
 title: "Logical vectors"
 author: "Sandra Alvarez-Carretero"
 date: "February 26, 2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Logical vectors
 If you want to give a vector the value of `True`, you can either assign the word `TRUE` or the letter `T` to the name of your variables without quotation marks. To assign the value of `False`, the same syntax would apply. Therefore:
 
 ```{r}
@@ -58,37 +59,37 @@ a_true & c_false
 
 ## 2. Exercises
 
-* ### Exercise 1  
-  Change the value of `returned_val` to `TRUE`. What happens with the conditional?
+### Exercise 1  
+Change the value of `returned_val` to `TRUE`. What happens with the conditional?
   
-* ### Exercise 2  
-  What do you expect to get when you type `2+2 == 5`? Check it in the terminal.
+### Exercise 2  
+What do you expect to get when you type `2+2 == 5`? Check it in the terminal.
   
-* ### Exercise 3    
-  What do you expect to get when you type `T == TRUE`? Check it in the terminal.
+### Exercise 3    
+What do you expect to get when you type `T == TRUE`? Check it in the terminal.
 
-* ### Exercise 4  
-  Run the following code and try to figure out what is happening with the value of the variable `val_1`:   
+### Exercise 4  
+Run the following code and try to figure out what is happening with the value of the variable `val_1` and what the function `cat()` does:   
 ```{r}
-  val_1 <- FALSE 
+val_1 <- FALSE 
   
-  if ( val_1 == TRUE ){
-    val_1 <- 2
-  } else
-    val_1 <- TRUE
+if ( val_1 == TRUE ){
+  val_1 <- 2
+  cat( "The value of my variable is ", val_1, "\n" )
+} else{
+  val_1 <- TRUE
+  cat( "The value of my variable is ", val_1, "\n" )
+}
   
-  val_1
+val_1
 ```
   
-* ### Exercise 5  
-  Write a code that does the following:  
+### Exercise 5  
+Write a code that does the following:   
   
-    a) You have a conditional checking that your variable `x` is higher than 3.   
-    b) If this is `TRUE`, then assign a new value to `x`: `FALSE`. Otherwise, assign `x` the value of `2`.   
-    c) Print `The value of my variables is` followed by the value of your variable.  
-              ***HINT***: Look at what the functions `paste` and `cat` can do!   
-    d) If you want a hard task, try to put an `else if` saying that if your variable is equal to `5`, it should print:  
-           `I went into the else if because my variable is equal to 5!`
-
-
+   a) You have a conditional checking that your variable `x` is higher than 3.   
+   b) If this is `TRUE`, then assign a new value to `x`: `FALSE`. Otherwise, assign `x` the value of `2`.   
+   c) If you want a hard task, try to put an `else if` saying that if your variable is equal to `5`, it should print:   
+         `I went into the "else if" because my variable is equal to 5!`   
+         
 

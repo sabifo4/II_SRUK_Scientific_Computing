@@ -2,14 +2,15 @@
 title: "Factors"
 author: "Sandra Alvarez-Carretero"
 date: "February 26, 2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Factor
 If you want to arrange your data into levels, it is important that you convert your data into factor class. Learn how in this tutorial!
 
 ## 1. Some examples
@@ -56,18 +57,28 @@ plot( time_previous, time_current, pch = as.integer( types_work ) )
 
 ```
 
-Note that, in the second plot, you can see different symbols. This is because the argument `pch` assigns a different symbol to each level so you can identify which point belongs to which level. However, you also need the legend to keep track of this!
+Note that, in the second plot, you can see different symbols. This is because the argument `pch` assigns a different symbol to each level so you can identify which point belongs to which level. However, you also need the legend to keep track of this! 
+Run the following code by selecting the code within lines 64 to 67 and then pressing `ctrl+RETURN` or `command+RETURN` (depending on Windows or Mac users) to run the whole code at once:
 
-```{r}
-points <- locator()
-legend( x = points$x, y = points$y,
-        legend = levels( types_work ),
-        pch = unique( as.integer( types_work ) ) )
+```R
+plot( time_previous, time_current, pch = as.integer( types_work ) )
+legend( "topright",
+         legend = levels( types_work ),
+         pch = unique( as.integer( types_work ) ) )
 ```
 
 ***NOTE***: Read the documentation of `?unique`.
 
 ## 2. Exercise
 Partner with some of your class mates and discuss all the examples presented in this tutorial. Change parameters, plot different values, look into new functions, etc. For instance, you could try to see how you can have one specific colour in the plot for each level!
+
+Run the following code and try to understand what the function `locator()` does an what we are doing here: 
+```R
+plot( time_previous, time_current, pch = as.integer( types_work ) )
+points <- locator( n = 1 )
+legend( x = points$x, y = points$y,
+       legend = levels( types_work ),
+       pch = unique( as.integer( types_work ) ) )
+```
 
 

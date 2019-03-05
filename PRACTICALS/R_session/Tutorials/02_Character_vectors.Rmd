@@ -2,14 +2,14 @@
 title: "Character vectors"
 author: "Sandra Alvarez-Carretero"
 date: "February 26, 2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-# Character vectors
 
 Character vectors can store values that contain strings, which are anything enclosed within quotation marks. Run the following code to see some examples with strings.
 
@@ -35,6 +35,7 @@ fruits
 Which is the function that you can use to find how many values are stored in `fruits`?
 Use it and print the result.
 
+---
 
 ## 1. Some useful functions
 
@@ -52,6 +53,8 @@ nchar( str_2 )
 ###  QUICK EXERCISE
 Create two character vectors with the strings you want. Then, write a code that prints `TRUE` if the first vector has more characters than the second. Otherwise, it should print `FALSE`.
 
+---
+
 ## 1.2. Functions `toupper()` and `tolower()`
 You can type `?toupper` and `?tolower` in the terminal to see how they work. You can then run the code below to see an  example of how they work:
 
@@ -66,10 +69,12 @@ tolower( str_3 )
 ###  QUICK EXERCISE 
 Convert the vector `fruits` you have previously created into upper letters and then print the result. Then, convert it back into lower letters and also print the result.
 
+---
+
 ## 2. REGEX
 There are many examples we could do with REGEX (regular expressions). However, we have limited time, so we will just do some examples and then you should complete some quick exercises. Before getting started, you should have read the documentation of the following functions: `gsub` and`grep`.
 
-We are going to create a character vector with a specific string. Afterwards, we are going to use the function gsub to find a specific pattern and then replace it by something different. Run the code below and try to understand what is happening:
+We are going to create a character vector with a specific string. Afterwards, we are going to use the function `gsub` to find a specific pattern and then replace it by something different. Run the code below and try to understand what is happening:
 
 ### Example 1
 ```{r}
@@ -109,47 +114,48 @@ grep( pattern = "strawberry", x = fruits)
 
 *TIP: You might want to have your notes on REGEX that were previously  explained so it can be easier for you you to solve the following exercises*
 
-* ### Exercise 1
-  You have the following character vector: `str_11 <- c( "cat", "dog", "hamster", "turtle" )`.  
-  Do a regex where either cat or dog are replaced with "hamster".
+### Exercise 1
+You have the following character vector: `str_11 <- c( "cat", "dog", "hamster", "turtle" )`.  
+Do a regex where either cat or dog are replaced with "hamster".
 
-* ### Exercise 2
-  You have the following character vector: `str_12 <- c( "bike", "bilateral", "Mike", "late" )`.  
-  Grep everything that contains the pattern "ike" so you can know in which positions they can be found.
+### Exercise 2
+You have the following character vector: `str_12 <- c( "bike", "bilateral", "Mike", "late" )`.  
+Grep everything that contains the pattern "ike" so you can know in which positions they can be found.
 
-* ### Exercise 3
-  Grep everything that ends up with "ate" in `str_12`. 
+### Exercise 3
+Grep everything that ends up with "ate" in `str_12`. 
 
-* ### Exercise 4  
-  Grep everything that starts with "bi".
+### Exercise 4  
+Grep everything that starts with "bi".
 
-* ### Exercise 5  
-  You have the following character vector: `str_13 <- c( "abd98", "aaajlk23", "des2342kk44" )`.  
-  Grep everything that starts with a letter.
+### Exercise 5  
+You have the following character vector: `str_13 <- c( "abd98", "aaajlk23", "des2342kk44" )`.  
+Grep everything that starts with a letter.
 
-* ### Exercise 6  
-  Grep everything that contains either "j" or "k" in `str_13`.
+### Exercise 6  
+Grep everything that contains either "j" or "k" in `str_13`.
 
-* ### Exercise 7 ( HARD! )
-  Replace any letter in `str_13` by a question mark and store the result in a new vector.
+### Exercise 7 ( HARD! )
+Replace any letter in `str_13` by a question mark and store the result in a new vector.
   
+---
 
 ## 3. SUMMARY EXERCISES 
 
-* ### Exercise 1  
-  Create two different numeric vectors and find which values are different between the two vectors.
+### Exercise 1  
+Create two different numeric vectors and find which values are different between the two vectors.
 
-* ### Exercise 2  
-  Now find which values are the same.
+### Exercise 2  
+Now find which values are the same.
 
-* ### Exercise 3  
-  Create a third vector that contains the union of these two vectors.
+### Exercise 3  
+Create a third vector that contains the union of these two vectors.
 
-* ### Exercise 4  
-  Assign the value `6.5789485` to a variable. Find out the class of this vector. Afterwards, round this value to the third digit.
+### Exercise 4  
+Assign the value `6.5789485` to a variable. Find out the class of this vector. Afterwards, round this value to the third digit.
 
-* ### Exercise 5  
-  Now truncate this same value.
+### Exercise 5  
+Now truncate this same value.
 
-* ### Exercise 6  
-  Create a vector named `test1` that contains a sequence of values from 1 to 3 increasing every 0.3 units. What is happening when you use the function `floor( test1 )`?
+### Exercise 6  
+Create a vector named `test1` that contains a sequence of values from 1 to 3 increasing every 0.3 units. What is happening when you use the function `floor( test1 )`?

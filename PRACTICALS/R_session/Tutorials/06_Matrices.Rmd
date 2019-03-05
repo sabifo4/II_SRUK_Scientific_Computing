@@ -2,14 +2,14 @@
 title: "Matrices"
 author: "Sandra Alvarez-Carretero"
 date: "February 26, 2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-# Matrix
 
 The first step is working with vectors, and you have already done this! Now, you can learn how to arrange these vectors into matrices, so you can work with more than one dimension. Remember that matrices are one of the mostly used classes in R to store your data! 
 
@@ -139,16 +139,19 @@ M_decomposed <- c( M )
 M_decomposed
 ```
 
-## 3. Exercise
+## 3. Exercise   
 
-* ### Exercise 1  
-  Create a matrix 3x5 with `NA` values
-* ### Exercise 2 (HARD!)  
-  Change the `NA` values into 0.  
-  ***HINT***: Look into the `which()` function to find how you can get both values for rows and columns!   
-* ### Exercise 3  
-  Give dimnames to your matrix.
-* ### Exercise 4    
-  Duplicate your matrix, transpose it, and multiply it by the previous one.
+### Exercise 1   
+Create a matrix 3x5 with `NA` values.
+
+### Exercise 2 (HARD!)   
+Change the `NA` values into 0.
+***HINT***: Look into the `which()` function to find how you can get both values for rows and columns!
+
+###Exercise 3   
+Give dimnames to your matrix.
+
+### Exercise 4   
+Duplicate your matrix, transpose it, and multiply it by the previous one.
 
 

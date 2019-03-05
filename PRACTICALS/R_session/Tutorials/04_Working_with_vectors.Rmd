@@ -2,7 +2,9 @@
 title: "Working with vectors"
 author: "Sandra Alvarez-Carretero"
 date: "February 26, 2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -98,16 +100,18 @@ This last function is very useful when you want to check if the content of two v
 --- 
 ### QUICK EXERCISES
 
-* ### Exercise 1  
-  Create a numeric vector with 3 values and put a name for each of them. After that, access the value in the second position using the name that you have given to the vector.
-* ### Exercise 2  
-  Remove the second value of this vector.
+### Exercise 1  
+Create a numeric vector with 3 values and put a name for each of them. After that, access the value in the second position using the name that you have given to the vector.
+
+### Exercise 2  
+Remove the second value of this vector.
+--- 
 
 # 2. Practising loops
 
 Until now, you have been practising with some conditionals. However, now it is time for you to take a look at how a loop might look like!
 
-### EXAMPLE 3
+### EXAMPLE 1
 
 ```{r}
 for ( fruit in seq( 1:length( fruits ) ) ){
@@ -129,10 +133,10 @@ you will see that you get numbers ranging from 1 to 6. This means that every sin
 A more difficult example of a `for` loop is a **NESTED** `for` loop. This is a `for` loop inside a `for` loop.
 Run the following example and try to figure out what it is doing by looking at what is being printed. After that, let's discuss this here!
 
-### EXAMPLE 4 
+### EXAMPLE 2 
 
 ```{r}
-places <- c( "Bethnal Green", "Hackney Road", "Romand Road")
+places <- c( "Bethnal Green", "Hackney Road", "Romand Road" )
 for ( fruit in seq( 1:length( fruits ) ) ){
   
   for ( place in seq( 1:length( places ) ) ){
@@ -188,9 +192,12 @@ result_func2 <- function_2( var_func )
 What is this function doing now? Now, it is taking the argument that you pass it and it is checking if it is negative first.
 If it is negative, it will return the absolute value. However, if it is not, then it will first print a message letting you know that your value is not negative and then it will return this value to the power of 2, which we store as a value of a variable named `result_func2`
 
+---
+
 ## EXERCISE
 Use the nested `for` loop of the previous example and put it inside a function. This function will use two arguments: `fruits` and `places`. After that, run your function with the corresponding vectors. When you observe the results, discuss with your class mates this result and think of which alternative vectors you can pass to your function and if you would like to change the name of the arguments of your function.
 
+---
 
 # 4. How to plot vectors? 
 
@@ -200,7 +207,7 @@ The quickest thing to do is to plot two numeric vectors one against the other:
 
 ```{r}
 x <- seq( 1:10 )
-y <- (seq( 1:10 ) + 4 ) / 0.25
+y <- ( seq( 1:10 ) + 4 ) / 0.25
 
 plot( x, y )
 ```
@@ -218,33 +225,35 @@ barplot( x )
 expenses <- c( 50, 150, 30, 300 )
 names( expenses ) <- c( "Jan", "Feb", "Mar", "Apr" )
 ```
-### Plot 1
+### PLOTS 
+
+#### Plot 1
 ```R 
 barplot( expenses )
 ```
-### Plot 2
+#### Plot 2
 ```R 
 barplot( expenses, col = c( "green", "orange", "green", "red" ) )
 ```
-### Plot 3
+#### Plot 3
 ```R 
 barplot( expenses, col = c( "green", "orange", "green", "red" ),
          main = "Expenses 2018")
 ```
-### Plot 4
+#### Plot 4
 ```R 
 barplot( expenses, col = c( "green", "orange", "green", "red" ),
          main = "Expenses 2018",
          xlab = "Months", ylab = "Money spent")
 ```
-### Plot 5
+#### Plot 5
 ```R 
 barplot( expenses, col = c( "green", "orange", "green", "red" ),
          main = "Expenses 2018",
          xlab = "Months", ylab = "Money spent")
 pos.xy <- locator()
 ```
-### Plot 6
+#### Plot 6
 ```R 
 barplot( expenses, col = c( "green", "orange", "green", "red" ),
          main = "Expenses 2018",
@@ -254,7 +263,7 @@ legend( x = pos.xy$x,
         legend = c( "Good!", "Be careful!", "You burnt the VISA..."),
         col = c( "green", "orange", "red" ), pch = 15 )
 ```
-### Plot 7
+#### Plot 7
 ```R 
 barplot( expenses, col = c( "green", "orange", "green", "red" ),
          main = "Expenses 2018",
@@ -268,9 +277,13 @@ legend( x = pos.xy$x,
 ```
 **NOTES**: Look into the built-in functions `?legend`, `?pch`, `?lines`, `?density`, `?lty`.
 
+--- 
+
 ### EXERCISE
 Design your own barplot and play with the different arguments that can be passed to the barplot function
 After that, look at examples of other types of plots with the built-in functions `boxplot`, `histogram`, `contour`. Ask any questions you might have about them!
+
+--- 
 
 # 5. How to deal with NA values?
 
@@ -307,12 +320,13 @@ This code will return you the positions in `results` where the values `2` are.
 ---
 ### QUICK EXERCISES 
 
-* ### Exercise 1  
-  You have the following vector: `results_103 <- c( NA, 1, 3, 5, 6, 7, 10, -3, NA, NA, -4 )`
-  Find the `NA` values and remove them.
+### Exercise 1  
+You have the following vector: `results_103 <- c( NA, 1, 3, 5, 6, 7, 10, -3, NA, NA, -4 )`
+Find the `NA` values and remove them.
   
-* ### Exercise 2  
-  Which is the sum of the values in `results_103`?
-* ### Exercise 3 (HARD!)  
-  Find the maximum value and the minimum value in this vector
-  ***HINT***: Remember the `max()` and `min()` functions! Plus, you want the maximum and minimum values, not their positions!
+### Exercise 2  
+Which is the sum of the values in `results_103`?
+
+### Exercise 3 (HARD!)  
+Find the maximum value and the minimum value in this vector
+***HINT***: Remember the `max()` and `min()` functions! Plus, you want the maximum and minimum values, not their positions!

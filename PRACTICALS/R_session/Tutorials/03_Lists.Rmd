@@ -2,14 +2,14 @@
 title: "Lists"
 author: "Sandra Alvarez-Carretero"
 date: "February 26, 2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-# List
 
 The next vector that we are going to work with is the list. The main function of the lists is to keep everything ordered under a specific name. You can even think of it as a dictionary in Python, because you can access the elements of a list by the name you have given to every entry. In order to understand this better, let's see an example!
 
@@ -65,15 +65,18 @@ fossils$Luisa
 
 ## 2. Exercises
 
-* ### Exercise 1  
-  Create a list with the favourite colours of 3 people.  
-  ***HINT***: Think how many entries you need for that!
-* ### Exercise 2  
-  Access the second entry of your list in the two ways you have learnt and check they return the same value!
-* ### Exercise 3  
-   Access the first and second elements of the third entry of your list
-* ### Exercise 4  
-  Find which are the colours that both the person in the first and in the second entry like.  
-  ***HINT***: Remember some functions we used with the numeric vectors!
+### Exercise 1  
+Create a list with the favourite colours of 3 people.  
+***HINT***: Think how many entries you need for that!
+
+### Exercise 2  
+Access the second entry of your list in the two ways you have learnt and check they return the same value!
+
+### Exercise 3  
+Access the first and second elements of the third entry of your list
+
+### Exercise 4  
+Find which are the colours that both the person in the first and in the second entry like.
+***HINT***: Remember some functions we used with the numeric vectors!
 
 

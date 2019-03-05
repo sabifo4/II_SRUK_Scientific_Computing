@@ -1,15 +1,15 @@
 ---
-title: "Numbers vectors"
+title: "Numeric, integer, and complex vectors"
 author: "Sandra Alvarez-Carretero"
 date: "February 26, 2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-# Numeric, integer, and complex vectors
 
 In the revision part, we have seen that there are three different types of classes for vectors that store numbers: numeric, integer, and complex. Run the following code to see some examples of these classes of vectors:
 
@@ -54,11 +54,13 @@ is.data.frame( x )
 
 ### QUICK EXERCISES
 
-* ### Exercise 1  
-  Try to remember which was the function used to change the class of a variable to complex. Then, change the class of the `c_num` variable to complex.
+### Exercise 1  
+Try to remember which was the function used to change the class of a variable to complex. Then, change the class of the `c_num` variable to complex.
   
-* ### Exercise 2  
-  Now try to remember the function to change the class of a variable into numeric. Then, change the class of the `a_int` variable to numeric.
+### Exercise 2  
+Now try to remember the function to change the class of a variable into numeric. Then, change the class of the `a_int` variable to numeric.
+
+---
 
 ## 1. R as a calculator
 
@@ -97,12 +99,13 @@ a %/% b
 
 ### QUICK EXERCISES 
 
-* ### Exercise 1  
-  Store in a new variable the result of `a` to the power of `2` and write a condition that prints the result of this calculation if this is higher than `5`.
+### Exercise 1  
+Store in a new variable the result of `a` to the power of `2` and write a condition that prints the result of this calculation if this is higher than `5`.
 
-* ### Exercise 2  
-  Store in a new variable the result of the square root `b` and write a condition that prints the remainder of dividing `b` into this new variable if this new variable is smaller than the result you got in exercise 1.
+### Exercise 2  
+Store in a new variable the result of the square root `b` and write a condition that prints the remainder of dividing `b` into this new variable if this new variable is smaller than the result you got in exercise 1.
 
+---
 
 ## 2. Some useful functions
 
@@ -123,19 +126,20 @@ Have you noticed that `7:9` has returned the sequence from 7 to 9? You can have 
 
 ### QUICK EXERCISES 
 
-* ### Exercise 1  
-  Create two different numeric vectors with as many values as you want. Then, use the function `sum` to get the result of summing the values in both vectors.
+### Exercise 1  
+Create two different numeric vectors with as many values as you want. Then, use the function `sum` to get the result of summing the values in both vectors.
 
-* ### Exercise 2
-  Create a vector that contains a sequence from 1 to 10.
+### Exercise 2
+Create a vector that contains a sequence from 1 to 10.
 
-* ### Exercise 3   
-  Create a vector that contains a sequence from 5 to 1. Note that the output should be `5 4 3 2 1`.
+### Exercise 3   
+Create a vector that contains a sequence from 5 to 1. Note that the output should be `5 4 3 2 1`.
    
-* ### Exercise 4  
-  Create a vector that contains a sequence from 1 to 10 every two numbers, i.e., it should return `1 3 5 7 9`.
+### Exercise 4  
+Create a vector that contains a sequence from 1 to 10 every two numbers, i.e., it should return `1 3 5 7 9`.
   ***HINT***: Look how `seq()` can be used for that!
 
+---
 
 ### 2.2. Functions `min()` and `max()`
 Type `?min` and `?max` on the console to see how these functions work. Now run the code below and try to understand the values you are returned:
@@ -149,6 +153,8 @@ min( vector_1 )
 
 ### QUICK EXERCISE 
 Write a code that prints `Maximum and minimum are equal` if the maximum number of a vector you create does not equal to the minimum number of this same vector. Otherwise, it should print `Maximum and minimum are equal`, if they are equal.
+
+---
 
 ### 2.3. Function `rep()`
 Type `?rep` and take a look at how this function works. Imagine that you want a vector with a specific value repeated X times. You can use this function as shown in the following example:
@@ -165,30 +171,37 @@ Repeat a sequence from 1 to 3 five times.
 
 ---
 
-There are many other functions that we can use, but we will either see them in the next tutorials or you will find them when working with your own data :smile: 
+There are many other functions that we can use, but we will either see them in the next tutorials or you will find them when working with your own data!
 Now it is time for some more exercises!
 
 ## 3. Exercises 
 
-Before getting started with the exercises for this tutorial, please make sure that you have checked the following built-in functions and you understand how to use them. Otherwise, ask us for help! :smile:
+Before getting started with the exercises for this tutorial, please make sure that you have checked the following built-in functions and you understand how to use them. Otherwise, ask us for help!
 Functions: `floor`, `trunc`, `round`, `union`, `intersect`, `setdiff`, `length`.
 
-* ### Exercise 1  
-  Create two different numeric vectors and find which values are different between the two vectors.
-* ### Exercise 2  
-  Now find which values are the same.
-* ### Exercise 3  
-  Create a third vector that contains the union of these two vectors.
-* ### Exercise 4 
-  Assign the value `6.5789485` to a variable. Find out the class of this vector. Afterwards, round this value to the third digit.
-* ### Exercise 5  
-  Now truncate this same value.
-* ### Exercise 6  
-  Create a vector named `test1` that contains a sequence of values from 1 to 3 increasing every 0.3 units.  
-  What is happening when you use the function `floor( test1 )`?
-* ### Exercise 7  
-  Create a vector named `test2` that contains a sequence of values from 1 to 20 increasing every 0.7 units. 
-  How many values does `test2` contain?
-* ### Exercise 8  
-  Write some code that prints `Vector test1 has more values than test2:`, followed by the length of `test1`. *Remember the function `cat()` that we have seen in the previous tutorial, which can print both vectors of class character and numeric/integer/complex*. Otherwise, if `test2` has more elements, the code should print `Vector test2 has more values than test1:`, followed by the length of `test2`. Last, if both lengths are equal, the message that should be printed is `Both lengths are the same:` followed by the corresponding length. 
+### Exercise 1
+Create two different numeric vectors and find which values are different between the two vectors.
+
+### Exercise 2  
+Now find which values are the same.
+
+### Exercise 3  
+Create a third vector that contains the union of these two vectors.
+
+### Exercise 4 
+Assign the value `6.5789485` to a variable. Find out the class of this vector. Afterwards, round this value to the third digit.
+
+### Exercise 5  
+Now truncate this same value.
+
+### Exercise 6  
+Create a vector named `test1` that contains a sequence of values from 1 to 3 increasing every 0.3 units.  
+What is happening when you use the function `floor( test1 )`?
+
+### Exercise 7  
+Create a vector named `test2` that contains a sequence of values from 1 to 20 increasing every 0.7 units. 
+How many values does `test2` contain?
+
+### Exercise 8  
+Write some code that prints `Vector test1 has more values than test2:`, followed by the length of `test1`. *Remember the function `cat()` that we have seen in the previous tutorial, which can print both vectors of class character and numeric/integer/complex*. Otherwise, if `test2` has more elements, the code should print `Vector test2 has more values than test1:`, followed by the length of `test2`. Last, if both lengths are equal, the message that should be printed is `Both lengths are the same:` followed by the corresponding length. 
 
