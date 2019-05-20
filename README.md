@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sabifo4/II_SRUK_Scientific_Computing/master)
+
 # II_SRUK_Scientific_Computing
 This repository contains the material for the II edition of the SRUK Scientific Computing. The next subsections contain important information about how to install the software required for the workshop as well as the practical sessions that will be carried out. Note that the latter will not be available until the day of the workshop.
 
